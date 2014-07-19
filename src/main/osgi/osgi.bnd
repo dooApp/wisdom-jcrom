@@ -1,20 +1,11 @@
 Export-Package: org.wisdom.jcrom.object, \
-    org.jcrom.annotations, \
+    org.jcrom.annotations
+Private-Package: org.wisdom.jcrom.runtime, \
+    org.wisdom.jcrom.conf, \
     org.jcrom.dao, \
     org.jcrom.util, \
-    javafx.beans.property, \
     org.jcrom.util.io, \
     org.jcrom.callback, \
-    org.wisdom.jcrom.object, \
-    org.jcrom, \
-    net.sf.cglib.proxy, \
-    net.sf.cglib.core, \
-    org.objectweb.asm, \
-    net.sf.cglib.reflect, \
-    org.objectweb.asm.util, \
-    org.objectweb.asm.signature, \
-    org.objectweb.asm.tree.analysis, \
-    org.objectweb.asm.tree
-Private-Package: org.wisdom.jcrom.runtime, \
-    org.wisdom.jcrom.conf
-Import-Package: *
+    org.jcrom
+Import-Package: !javafx.beans.property,\
+    *
